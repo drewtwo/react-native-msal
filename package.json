@@ -2,9 +2,8 @@
   "name": "@bam.tech/react-native-msal",
   "version": "4.0.9",
   "description": "React Native wrapper for iOS and Android",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
-  "source": "src/index",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
   "scripts": {
     "build": "expo-module build",
     "clean": "expo-module clean",
