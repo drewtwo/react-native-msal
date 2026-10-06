@@ -10,7 +10,7 @@
     "clean": "expo-module clean",
     "expo-module": "expo-module",
     "lint": "expo-module lint",
-    "prepare": "expo-module prepare && husky install",
+    "prepare": "expo-module build && husky install",
     "prepublishOnly": "expo-module prepublishOnly",
     "test": "expo-module test",
     "example": "yarn --cwd example",
@@ -31,17 +31,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bamlab/react-native-msal.git"
+    "url": "git+https://github.com/drewtwo/react-native-msal.git"
   },
   "author": "bam.tech",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bamlab/react-native-msal/issues"
+    "url": "https://github.com/drewtwo/react-native-msal/issues"
   },
-  "homepage": "https://github.com/bamlab/react-native-msal#readme",
+  "homepage": "https://github.com/drewtwo/react-native-msal#readme",
   "dependencies": {
-    "@azure/msal-browser": "^2.1.0",
-    "@expo/config-plugins": "^4.0.6"
+    "@azure/msal-browser": "^2.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
