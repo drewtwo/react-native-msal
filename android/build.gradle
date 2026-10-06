@@ -55,5 +55,8 @@ repositories {
 dependencies {
   // noinspection GradleDynamicVersion
   implementation 'com.facebook.react:react-native:+' // From node_modules
-  implementation 'com.microsoft.identity.client:msal:2.2.+'
+  implementation ('com.microsoft.identity.client:msal:5.10.0') {
+    exclude group: 'com.microsoft.device.display'
+    exclude group: 'com.google.android.gms', module: 'play-services-auth'
+  }
 }
